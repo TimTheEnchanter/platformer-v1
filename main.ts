@@ -294,9 +294,9 @@ function setLevelTileMap (level: number) {
     } else if (level == 7) {
         tiles.setTilemap(tilemap`level_6`)
     } else if (level == 8) {
-        tiles.setTilemap(tilemap`level_6`)
+        tiles.setCurrentTilemap(tilemap`level9`)
     } else if (level == 9) {
-        tiles.setTilemap(tilemap`level_6`)
+        tiles.setCurrentTilemap(tilemap`level10`)
     }
     initializeLevel(level)
 }
